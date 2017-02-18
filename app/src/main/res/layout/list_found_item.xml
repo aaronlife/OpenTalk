@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/imageFound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star_big_on"/>
+
+    <TextView android:id="@+id/txtFoundName"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|left"/>
+
+</LinearLayout>

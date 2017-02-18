@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <item android:id="@+id/menu_add_friend"
+            android:orderInCategory="200"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Friend"
+            app:showAsAction="ifRoom"/>
+
+      <item android:id="@+id/menu_invitations"
+            android:orderInCategory="300"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Invitation"
+            app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/imgInPhoto"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star_big_on"/>
+
+    <TextView android:id="@+id/txtInName"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_toRightOf="@id/imgInPhoto"
+              android:textSize="20sp"
+              android:gravity="center_vertical|left"/>
+
+    <ImageView android:id="@+id/btnInDel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@android:drawable/ic_delete"
+            android:scaleType="fitCenter"
+            android:onClick="onInvitationDelete"/>
+
+    <ImageView android:id="@+id/btnInAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/btnInDel"
+            android:src="@android:drawable/ic_input_add"
+            android:scaleType="fitCenter"
+            android:onClick="onInvitationAccept"/>
+</RelativeLayout>
